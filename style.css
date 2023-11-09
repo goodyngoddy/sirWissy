@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "lobster";
+  src: url('/Lobster-Regular.ttf')
+}
+@font-face {
+  font-family: "AbrilFatface";
+  src: url('/AbrilFatface-Regular.ttf')
+}
+body {
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: gold;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 3px 10px gold;
+  font-family: "lobster";
+  background: #1a285a;
+  padding: 10px;
+  box-shadow: 2px 4px 20px white;
+  border: 2px solid gold;
+  border-radius: 20px;
+}
+p {
+  font-family: "AbrilFatface";
+  text-align: center;
+  background: linear-gradient(to bottom right, white, cyan, gold, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
