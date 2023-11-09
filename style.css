@@ -1,10 +1,10 @@
 @font-face {
   font-family: "lobster";
-  src: url('/Lobster-Regular.ttf')
+  src: url('Lobster-Regular.ttf')
 }
 @font-face {
   font-family: "AbrilFatface";
-  src: url('/AbrilFatface-Regular.ttf')
+  src: url('AbrilFatface-Regular.ttf')
 }
 body {
     font-size: 15pt;
@@ -20,7 +20,7 @@ h1 {
   color: white;
   text-shadow: 2px 3px 10px gold;
   font-family: "lobster";
-  background: #1a285a;
+  background: #06b;
   padding: 10px;
   box-shadow: 2px 4px 20px white;
   border: 2px solid gold;
@@ -32,4 +32,9 @@ p {
   background: linear-gradient(to bottom right, white, cyan, gold, white);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  width: fit-content;
+  box-shadow: 4px 6px 7px #338fa5;
+  border-radius: 10px;
+  background-color: #338fa5;
+  padding: 5px;
 }
